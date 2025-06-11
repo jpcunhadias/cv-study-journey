@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environments
+.env
+.venv
+env/
+venv/
+pip-log.txt
+poetry.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data and models
+data/raw/
+data/processed/
+models/checkpoints/
+

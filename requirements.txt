@@ -1,0 +1,9 @@
+# === CORE ===
+numpy
+matplotlib
+opencv-python
+
+# === DEV UTILITIES (optional, for later phases) ===
+jupyter
+tqdm
+scikit-learn
