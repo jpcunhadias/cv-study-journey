@@ -21,8 +21,17 @@ poetry.lock
 .DS_Store
 Thumbs.db
 
-# Data and models
-data/raw/
-data/processed/
-models/checkpoints/
+# === DATA ===
+data/raw/*
+data/processed/*
+data/external/*
+
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+
+# === MODELS ===
+models/checkpoints/*
+
+!models/checkpoints/.gitkeep
 
